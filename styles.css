@@ -1,0 +1,87 @@
+body {
+  background-color: lightgreen;
+}
+
+.container {
+  margin: 0;
+
+  text-align: center;
+}
+
+
+.juego {
+  position: relative;
+  height: 230px;
+  min-width: 95%;
+  background: url("./imagenes/background.png") repeat-x;
+  background-size: contain;
+ 
+}
+
+.mario {
+  height: 50px;
+  position: absolute;
+  bottom: 35px;
+  left: 75px;
+  transition: 0.3s;
+  
+}
+
+.goomba{
+    height: 30px;
+    position: absolute;
+    bottom: 35px;
+    left: 600px;
+}
+
+.goombaAlado{
+  height: 50px;
+  position: absolute;
+  bottom: 85px;
+  left: 800px;
+}
+.moneda {
+  height: 20px;
+  position: absolute;
+  bottom: 150px;
+  left: 400px;
+}
+
+.hongo {
+  height: 25px;
+  position: absolute;
+  bottom: 35px;
+  right: 850px;
+}
+.bandera{
+  height: 150px;
+  position: absolute;
+  bottom: 35px;
+  right: 180px;
+}
+
+h3 {
+  float: right;
+  margin: 25px;
+}
+
+button {
+  font-weight: bold;
+}
+
+.row1 {
+  display: flex;
+}
+
+.row2 {
+  display: flex;
+}
+
+h2 {
+  background-color: yellow;
+}
+
+
+.flip {
+  transform: scaleX(-1);
+}
